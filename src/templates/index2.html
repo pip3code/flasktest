@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samambaia</title>
+    <title>Document</title>
     <link rel="stylesheet" href="/src/static/css/style.css">
 </head>
 <body>
@@ -14,21 +14,17 @@
     </header>
     <main>
         <section class="container">
-            <h1 class="container__titulo"><b class="container__titulo--negrito">Este</b> é um cupom para a <b class="container__titulo--negrito">LojaX</b></h1>
-            <p class="container__texto">Para validar seu cupom, digite seu CPF abaixo.</p>
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Aqui</b> você coloca seus dados apenas para a gente saber <b class="container__titulo--negrito">quem é você.</b></h1>
         </section>
-        <section>
-        <div class="validar"
+        <section class="caixa">
             <form>
                 <label for="cpf"></label>
-                <input class="validar__input" type="text" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="Digite o seu CPF" required>
-                </div>
-                <div class="botao"
-                    <button class="validar__botao" type="button">Validar</button>
-                </div>
+                <input class="caixa__input" type="text" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="CPF" required>
+                <label for="telefone"></label>
+                <input class="caixa__input" type="number" id="telefone" placeholder="TELEFONE" required>
+                <button class="caixa__botao" type="button">Cadastrar</button>
             </form>
         </section>
-        
     </main>
     <footer class="rodape">
         <p class="rodape__texto">@Copyright</p>
